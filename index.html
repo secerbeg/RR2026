@@ -1,9 +1,35 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0a1a24"><title>Roseville MLS NEXT | Choose schedule</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080c0f"><title>Roseville MLS NEXT | Choose schedule</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f4f7fa;color:#173142;font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}a{color:inherit}a:focus-visible{outline:3px solid #08b8c8;outline-offset:4px}.wrap{max-width:1040px;margin:auto;padding:0 22px}.hero{background:linear-gradient(120deg,#081620,#0c3440);color:white;padding:0 0 47px}.top{display:flex;align-items:center;justify-content:space-between;padding-top:20px;padding-bottom:36px;gap:18px}.brand{font-weight:900;letter-spacing:.07em;font-size:15px}.brand span{color:#7ce4ed}.location{font-size:12px;color:#b9d6dd}.eyebrow{font-weight:750;letter-spacing:.17em;color:#79e0ea;font-size:11px;text-transform:uppercase}.hero h1{font-weight:850;letter-spacing:-.04em;font-size:clamp(33px,5vw,52px);line-height:1.11;margin:13px 0}.hero h1 span{color:#7ce4ed}.hero p{margin:0;color:#b6d3d9;font-size:14px}.facts{display:flex;gap:9px;flex-wrap:wrap;margin-top:21px}.fact{border:1px solid #ffffff24;background:#ffffff10;border-radius:22px;padding:5px 11px;font-size:12px;color:#dbecf0}.main{padding-top:31px;padding-bottom:45px}.main h2{margin:0 0 6px;font-size:24px}.intro{margin:0 0 19px;color:#687e8b;font-size:13px}.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px}.choice{display:flex;flex-direction:column;text-decoration:none;background:white;border:1px solid #dce6eb;border-radius:18px;padding:24px;box-shadow:0 7px 23px #0b293b08;min-height:284px;transition:box-shadow .2s,border-color .2s,transform .2s}.choice:hover{border-color:#0aa0ae;box-shadow:0 12px 34px #0b293b18;transform:translateY(-2px)}.choice .icon{background:#e5f4f5;color:#086a78;font-size:27px;display:grid;place-items:center;border-radius:12px;width:54px;height:54px;margin-bottom:20px}.choice.published .icon{background:#e7f4e9;color:#177447}.choice h3{font-size:22px;letter-spacing:-.03em;line-height:1.2;margin:0 0 8px}.choice p{font-size:13px;color:#647987;margin:0 0 18px}.choice .status{font-size:11px;color:#526f7d;margin-top:auto}.cta{margin-top:15px;background:#096c79;color:white;border-radius:10px;padding:11px 15px;font-size:13px;font-weight:800;display:flex;align-items:center;justify-content:space-between}.published .cta{background:#0a654e}.notes{border-radius:13px;border:1px solid #d8e5e9;background:#fff;margin-top:19px;padding:14px 17px;color:#657b86;font-size:12px}.notes strong{color:#304e5a}.foot{margin-top:30px;color:#83919c;font-size:11px}.foot a{color:#0d6e7b}@media(max-width:680px){.wrap{padding:0 14px}.hero{padding-bottom:29px}.top{padding-bottom:26px}.location{font-size:10px}.main{padding-top:24px}.cards{grid-template-columns:1fr;gap:12px}.choice{min-height:0;padding:19px}.choice .icon{width:46px;height:46px;margin-bottom:13px;font-size:22px}.choice h3{font-size:20px}.hero h1{font-size:34px}.cta{margin-top:16px}}
+
+
+/* MLS NEXT-inspired high-contrast theme. Neutral fixture cards preserve age color keys. */
+:root{--next-bg:#080c0f;--next-surface:#141b20;--next-surface-2:#1a242a;--next-ink:#f4fbfd;--next-muted:#a9bbc4;--next-line:#304047;--next-cyan:#65e8ee;--next-cyan-2:#92f5f8;--next-button-ink:#071316}
+html{color-scheme:dark}
+body{background:var(--next-bg);color:var(--next-ink)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid var(--next-cyan);outline-offset:3px}
+input,select{color-scheme:dark}
+::selection{background:#66e8ef;color:#020a0e}
+
+.hero{background:linear-gradient(114deg,#030608 0%,#070d10 64%,#10252a 100%);border-bottom:3px solid var(--next-cyan)}
+.brand{display:flex;align-items:center;gap:8px;color:#fff}
+.brand img{height:42px;width:45px;object-fit:contain;margin-right:6px}
+.brand span,.eyebrow,.hero h1 span{color:var(--next-cyan)}
+.location,.hero p{color:#b3c7cd}
+.fact{background:#152328;border-color:#314b51;color:#e4f9fa}
+.main h2{color:#fff}.intro{color:var(--next-muted)}
+.choice{background:var(--next-surface);border:1px solid var(--next-line);box-shadow:0 9px 26px #00000044;color:var(--next-ink)}
+.choice:hover{border-color:var(--next-cyan);box-shadow:0 10px 36px #1b71772a}
+.choice h3{color:#fff}.choice p,.choice .status{color:var(--next-muted)}
+.choice .icon,.choice.published .icon{background:#1d343a;color:var(--next-cyan);border:1px solid #355961}
+.cta,.published .cta{background:var(--next-cyan);color:var(--next-button-ink);font-weight:900;border-radius:7px}
+.choice:hover .cta{background:var(--next-cyan-2)}
+.notes{background:#121b20;border-color:#34464d;color:var(--next-muted)}.notes strong{color:var(--next-ink)}
+.foot{color:#96a9b4}.foot a{color:var(--next-cyan)}
+
 </style></head><body>
-<header class="hero"><div class="wrap"><div class="top"><div class="brand">MLS <span>NEXT</span> &nbsp;/&nbsp; ROSEVILLE</div><div class="location">Academy Division Cup Qualifier</div></div><div class="eyebrow">October 30 - November 1, 2026</div><h1>Roseville Regional<br><span>Match Schedule</span></h1><p>Placer Valley Soccer Complex - Roseville, California</p><div class="facts"><span class="fact">U13 - U19</span><span class="fact">10 fields</span><span class="fact">Friday - Sunday</span></div></div></header>
+<header class="hero"><div class="wrap"><div class="top"><div class="brand"><img src="assets/mls-next-mark.png" alt="MLS NEXT logo">MLS <span>NEXT</span> &nbsp;/&nbsp; ROSEVILLE</div><div class="location">Academy Division Cup Qualifier</div></div><div class="eyebrow">October 30 - November 1, 2026</div><h1>Roseville Regional<br><span>Match Schedule</span></h1><p>Placer Valley Soccer Complex - Roseville, California</p><div class="facts"><span class="fact">U13 - U19</span><span class="fact">10 fields</span><span class="fact">Friday - Sunday</span></div></div></header>
 <main class="wrap main"><h2>Choose a schedule</h2><p class="intro">Select the original preliminary schedule or the published MLS Assist data feed.</p><div class="cards">
 <a class="choice draft" href="draft.html"><div class="icon" aria-hidden="true">▦</div><h3>Draft Schedule</h3><p>Our original schedule from the organizer's image. Includes all group matches, Saturday semifinals, Sunday finals, and inferred groups and brackets.</p><div class="status">162 fixture slots · Static / works offline · Preliminary</div><div class="cta">Open Draft Schedule <span aria-hidden="true">→</span></div></a>
 <a class="choice published" href="published.html"><div class="icon" aria-hidden="true">↻</div><h3>Published Schedule</h3><p>Connects to the MLS Assist Roseville JSON feed to show officially published games, scores, kickoff times, and fields as they become available.</p><div class="status" id="published-status">Source available · No games in last verified response</div><div class="cta">Open Published Schedule <span aria-hidden="true">→</span></div></a>

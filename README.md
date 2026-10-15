@@ -17,3 +17,6 @@ Public JSON endpoint:
 https://mls-assist.theintelligenceplatform.com/data/schedule/mls-next-cup-qualifier-roseville-regional.json
 
 The site is an independent unofficial viewer. Verify tournament details with the organizer and follow source usage terms.
+
+## October 15 - MLS NEXT-inspired colors
+All four HTML pages share a black, white, and electric-cyan palette based on MLS NEXT's visual branding. The age group color strips remain unchanged for readability. No fixture data or feed endpoints were changed.
